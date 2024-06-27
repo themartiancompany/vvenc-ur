@@ -1,16 +1,13 @@
 pkgbase = vvenc
-	pkgdesc = Fraunhofer Versatile Video Encoder (VVenC)
-	pkgver = 1.9.1
+	pkgdesc = A H.266/VVC (Versatile Video Coding) encoder
+	pkgver = 1.11.1
 	pkgrel = 1
-	url = https://github.com/fraunhoferhhi/vvenc
+	url = https://github.com/fraunhoferhhi/vvenc/
 	arch = x86_64
-	license = custom
-	makedepends = cmake>=3.12
-	makedepends = gcc>=7
+	license = BSD-3-Clause-Clear
+	makedepends = cmake
 	depends = gcc-libs
-	provides = vvenc
-	conflicts = vvenc-git
-	source = vvenc-1.9.1.tar.gz::https://github.com/fraunhoferhhi/vvenc/archive/v1.9.1.tar.gz
-	sha256sums = 970c5512345e7246495f8e880aa79a5c3d086a5eacdc079bf77335a6f7dda65f
+	source = https://github.com/fraunhoferhhi/vvenc/archive/v1.11.1/vvenc-1.11.1.tar.gz
+	sha256sums = 4f0c8ac3f03eb970bee7a0cacc57a886ac511d58f081bb08ba4bce6f547d92fa
 
 pkgname = vvenc
