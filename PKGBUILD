@@ -2,7 +2,7 @@
 # Contributor: dummyx <dummyxa at gmail dot com>
 
 pkgname=vvenc
-pkgver=1.12.0
+pkgver=1.12.1
 pkgrel=1
 pkgdesc='A H.266/VVC (Versatile Video Coding) encoder'
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('BSD-3-Clause-Clear')
 depends=('gcc-libs')
 makedepends=('cmake')
 source=("https://github.com/fraunhoferhhi/vvenc/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('e7311ffcc87d8fcc4b839807061cca1b89be017ae7c449a69436dc2dd07615c2')
+sha256sums=('ba353363779e8f835200f319c801b052a97d592ebc817b52c41bdce093fa2fe2')
 
 build() {
     cmake -B build -S "${pkgname}-${pkgver}" \
